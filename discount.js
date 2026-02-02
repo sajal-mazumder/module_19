@@ -38,7 +38,7 @@ function layerDiscount(productsQuantity){
     let above200price = 80;
 
     if (productsQuantity <= 100) {
-        totalTaka = first100price * productsQuantity;
+        let totalTaka = first100price * productsQuantity;
         return totalTaka;
     }
     else if (productsQuantity <= 200) {
