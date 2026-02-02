@@ -30,3 +30,19 @@ function getMax(numbers){
 
 let res = getMax(arr);
 console.log('result of the array is the larger number : ', res)
+
+
+// finding min number
+
+function getMin(numbers){
+    let minNumber = numbers[0];
+    for(let number of numbers){
+        if (number < minNumber) {
+            minNumber = number;
+        }
+    }
+    return minNumber;
+}
+
+let minResult = getMin(arr);
+console.log('the result of min number in the array is: ', minResult);
